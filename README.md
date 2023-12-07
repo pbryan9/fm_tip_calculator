@@ -4,3 +4,4 @@ Includes:
 
 - styled-components
 - prettier
+- vitest
