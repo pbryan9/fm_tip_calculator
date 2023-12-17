@@ -42,8 +42,9 @@ function App() {
       <CardWrapper>
         <InputSectionWrapper>
           <BillAmountContainer>
-            <Label>Bill</Label>
+            <Label htmlFor='bill-amount'>Bill</Label>
             <InputWithIcon
+              id='bill-amount'
               icon={dollarIcon}
               setValue={updateBillAmount}
               value={billAmount}
@@ -56,6 +57,7 @@ function App() {
           <PeopleContainer>
             <Label htmlFor='number-of-people'>Number of People</Label>
             <InputWithIcon
+              id='number-of-people'
               icon={personIcon}
               value={numberOfPeople}
               setValue={updateNumberOfPeople}
