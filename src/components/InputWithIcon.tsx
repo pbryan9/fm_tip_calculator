@@ -5,20 +5,20 @@ type InputWithIconProps = {
   icon: string;
   value: any;
   setValue: (newValue: any) => void;
-  id: string;
+  inputId: string;
 };
 
 export default function InputWithIcon({
   icon,
   value,
   setValue,
-  id,
+  inputId,
 }: InputWithIconProps) {
   return (
     <Wrapper>
       <Icon alt='' src={icon} />
       <Input
-        id={id}
+        id={inputId}
         type='text'
         inputMode='numeric'
         value={value}

@@ -44,7 +44,7 @@ function App() {
           <BillAmountContainer>
             <Label htmlFor='bill-amount'>Bill</Label>
             <InputWithIcon
-              id='bill-amount'
+              inputId='bill-amount'
               icon={dollarIcon}
               setValue={updateBillAmount}
               value={billAmount}
@@ -57,7 +57,7 @@ function App() {
           <PeopleContainer>
             <Label htmlFor='number-of-people'>Number of People</Label>
             <InputWithIcon
-              id='number-of-people'
+              inputId='number-of-people'
               icon={personIcon}
               value={numberOfPeople}
               setValue={updateNumberOfPeople}
